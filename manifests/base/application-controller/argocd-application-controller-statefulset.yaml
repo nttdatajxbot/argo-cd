@@ -141,7 +141,7 @@ spec:
           mountPath: /app/config/controller/tls
         - name: argocd-home
           mountPath: /home/argocd
-      serviceAccountName: argocd-application-controller
+      serviceAccountName: argocd-apps-application-controller
       affinity:
         podAntiAffinity:
           preferredDuringSchedulingIgnoredDuringExecution:
